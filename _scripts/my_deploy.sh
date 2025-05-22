@@ -12,7 +12,7 @@
 #===============================================================================
 
 export JEKYLL_ENV=production
-export RUBY_VERSION="3.3.7"
+export RUBY_VERSION = "3.3.7"
 
 if [ -z "$RBENV_SHELL" ] && [ -z "$RVM_PROJECT_PATH" ]; then
     echo "Neither rbenv nor rvm is initialized. Exiting."
