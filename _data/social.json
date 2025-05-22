@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Github",
+    "link": "https://github.com/promethence",
+    "image": "assets/images/social/github.svg"
+  },
+  {
+    "name": "Twitter",
+    "link": "https://twitter.com/promethence",
+    "image": "assets/images/social/twitter.svg"
+  },
+  {
+      "name": "Facebook",
+      "link": "https://facebook.com/promethence",
+      "image": "assets/images/social/facebook.svg"
+  },
+  {
+      "name": "Email",
+      "link": "mailto:promethence@promethence.com ",
+      "image": "assets/images/social/email.svg"
+  },
+  {
+      "name": "Instagram",
+      "link": "https://instagram.com/promethence",
+      "image": "assets/images/social/instagram.svg"
+  },
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Quantum Cryptanalysis",
+    "description": "We study and break post-quantum cryptographic primitives using quantum algorithms and adversarial models.",
+    "image": {
+      "url": "assets/images/features/quantum-lock.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Quantum Compilation",
+    "description": "We design low-level compilation pipelines for near-term quantum architectures and hybrid algorithms.",
+    "image": {
+      "url": "assets/images/features/compiler-chip.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Algorithm Design",
+    "description": "We develop novel quantum algorithms and improve the performance of known routines under realistic constraints.",
+    "image": {
+      "url": "assets/images/features/algorithm-circuit.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Research Collaboration",
+    "description": "We partner with universities and industry to write proposals, publish papers, and build new technologies.",
+    "image": {
+      "url": "assets/images/features/research-handshake.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Secure Computing",
+    "description": "We contribute to secure-by-design post-quantum systems with attention to both theory and practical deployability.",
+    "image": {
+      "url": "assets/images/features/secure-network.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
+

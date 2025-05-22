@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="59.345619mm"
+   height="9.3542538mm"
+   viewBox="0 0 59.345619 9.3542538"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="5.1957196"
+     inkscape:cx="123.56325"
+     inkscape:cy="11.836666"
+     inkscape:window-width="1916"
+     inkscape:window-height="918"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g47"
+     showborder="false"
+     borderlayer="false"
+     inkscape:clip-to-page="true">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-34.654739"
+       originy="-83.593506"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="51.523814 : -29.052834 : 1"
+       inkscape:vp_y="599.6196 : -800.28513 : 0"
+       inkscape:vp_z="-116.53607 : -154.97295 : 1"
+       inkscape:persp3d-origin="-62.1873 : -52.398783 : 1"
+       id="perspective4" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#g2"
+         id="use3" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-34.654739,-83.593509)">
+    <g
+       id="g47"
+       transform="translate(-32.839503,-40.90535)">
+      <g
+         id="g1">
+        <g
+           id="g48"
+           transform="translate(1.4258532,-3.259093)">
+          <g
+             id="g45"
+             transform="matrix(0.09982394,0,0,0.09989187,70.669687,123.32678)">
+            <ellipse
+               style="fill:none;fill-opacity:0.97931;stroke:#000000;stroke-width:2.238;stroke-dasharray:none;stroke-opacity:1"
+               id="path40"
+               cx="85.346741"
+               cy="83.447479"
+               rx="32.119343"
+               ry="32.047325" />
+            <g
+               id="g44"
+               transform="matrix(0.83593426,0.5735308,-0.55829308,0.81404449,59.572234,-33.240925)"
+               inkscape:transform-center-x="-0.2400459"
+               inkscape:transform-center-y="-4.2990496">
+              <ellipse
+                 style="fill:none;fill-opacity:0.97931;stroke:#000000;stroke-width:2.238;stroke-dasharray:none;stroke-opacity:1"
+                 id="path41"
+                 cx="85.539177"
+                 cy="85.061668"
+                 rx="31.039093"
+                 ry="5.6893005" />
+              <path
+                 style="fill:none;fill-opacity:0.97931;stroke:#000000;stroke-width:2.238;stroke-dasharray:none;stroke-opacity:1"
+                 d="M 85.09288,51.177943 85.04196,84.991034 75.366529,90.43983"
+                 id="path43" />
+              <path
+                 style="fill:none;fill-opacity:0.97931;stroke:#000000;stroke-width:2.238;stroke-dasharray:none;stroke-opacity:1"
+                 d="m 84.991034,84.94011 31.114156,0.101846"
+                 id="path44" />
+            </g>
+          </g>
+          <g
+             id="g3"
+             clip-path="url(#clipPath3)">
+            <g
+               inkscape:label="Clip"
+               id="g2">
+              <text
+                 xml:space="preserve"
+                 style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.87777px;font-family:'Heiti SC';-inkscape-font-specification:'Heiti SC, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.97931;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+                 x="65.534981"
+                 y="134.95885"
+                 id="text47"><tspan
+                   id="tspan47"
+                   x="65.534981"
+                   y="134.95885"
+                   sodipodi:role="line">pr   methence</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:9.87777px;font-family:'Heiti SC';-inkscape-font-specification:'Heiti SC, Light';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.97931;stroke:none;stroke-width:0.3;stroke-dasharray:none;stroke-opacity:1"
+         x="67.467361"
+         y="141.73352"
+         id="text48"><tspan
+           sodipodi:role="line"
+           id="tspan48"
+           style="stroke-width:0.3"
+           x="67.467361"
+           y="141.73352">technologies</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:7.05556px;font-family:'Telugu Sangam MN';-inkscape-font-specification:'Telugu Sangam MN, Normal';fill:#ffff00;fill-opacity:0.97931;stroke:#000000;stroke-width:0.338;stroke-dasharray:none;stroke-opacity:1"
+       x="72.016464"
+       y="41.193417"
+       id="text46"><tspan
+         sodipodi:role="line"
+         id="tspan46"
+         style="stroke-width:0.338"
+         x="72.016464"
+         y="41.193417" /></text>
+  </g>
+</svg>
