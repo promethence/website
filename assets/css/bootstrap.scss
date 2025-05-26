@@ -1,0 +1,19 @@
+// bootstrap.scss
+
+// Bootstrap core
+@forward "bootstrap/functions";
+@forward "bootstrap/variables";
+@forward "bootstrap/variables-dark";
+@forward "bootstrap/maps";
+@forward "bootstrap/mixins";
+@forward "bootstrap/utilities";
+
+// Optional components
+@forward "bootstrap/root";
+@forward "bootstrap/reboot";
+@forward "bootstrap/type";
+@forward "bootstrap/images";
+@forward "bootstrap/containers";
+@forward "bootstrap/grid";
+@forward "bootstrap/tables";
+@forward "bootstrap/forms";

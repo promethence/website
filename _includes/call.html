@@ -11,6 +11,14 @@
     </div>
     {% endif %}
   </div>
+  {% if site.data.contact.pec %}
+  <div class="call-email"><strong>PEC: </strong>
+      <a href="mailto:{{ .site.data.contact.email }}">
+          {{ site.data.contact.pec }}
+      </a>
+    </div>
+    {% endif %}
+  </div>
     {% if include.show_button %}
       <div class="call-box-bottom">
         <a href="{{ site.data.contact.contact_button_link }}" class="button">Contact</a>

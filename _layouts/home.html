@@ -5,16 +5,34 @@ bodyClass: "page-home"
 
 <div class="intro">
   <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+    <div class="row align-items-center justify-content-start">
+      <!-- Text content -->
+      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
         {% endif %}
       </div>
-      {% if page.intro_image %}
-      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+      {% if page.intro_images %}
+      <!-- Carousel side -->
+      <div class="col-12 col-md-7 col-lg-6 order-1 order-md-2">
+        <div id="introCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+            {% for image in page.intro_images %}
+            <div class="carousel-item{% if forloop.first %} active{% endif %}">
+              <img src="{{ image | relative_url }}" class="d-block w-100 rounded" alt="Slide {{ forloop.index }}" style="object-fit: cover; max-height: 400px; width: 100%;">
+            </div>
+            {% endfor %}
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
       {% endif %}
     </div>

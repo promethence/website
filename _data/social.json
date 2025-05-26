@@ -16,7 +16,12 @@
   },
   {
       "name": "Email",
-      "link": "mailto:promethence@promethence.com ",
+      "link": "mailto:promethence@promethence.com",
+      "image": "assets/images/social/email.svg"
+  },
+    {
+      "name": "PEC",
+      "link": "mailto:promethence@pec.it",
       "image": "assets/images/social/email.svg"
   },
   {
