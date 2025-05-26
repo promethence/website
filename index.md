@@ -4,8 +4,7 @@ layout: home
 description: A startup about quantum computing, cryptography, compilation
 intro_images:
   - assets/images/illustrations/qc_ex.svg
-  - assets/images/illustrations/20-gon.png
-  - assets/images/illustrations/Untitled.png
+  - assets/images/illustrations/Client_Carrier_with_COM-HPC_module_for_PICMG_r7.png
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false
