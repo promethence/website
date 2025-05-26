@@ -2,10 +2,13 @@
 title: Promethence
 layout: home
 description: A startup about quantum computing, cryptography, compilation
-intro_image: "assets/images/illustrations/qc_ex.svg"
+intro_images:
+  - assets/images/illustrations/qc_ex.svg
+  - assets/images/illustrations/20-gon.png
+  - assets/images/illustrations/Untitled.png
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: false
 ---
 
 # Quantum Thinking for a Post-Quantum World
