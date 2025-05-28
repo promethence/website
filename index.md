@@ -3,8 +3,10 @@ title: Promethence
 layout: home
 description: A startup about quantum computing, cryptography, compilation
 intro_images:
-  - assets/images/illustrations/qc_ex.svg
-  - assets/images/illustrations/Client_Carrier_with_COM-HPC_module_for_PICMG_r7.png
+  - url: assets/images/illustrations/qc_ex.svg
+    alt: A quantum gate-based circuit composed of 3 qubits and several quantum gates (H, X, Z, CCNOT, RY)
+  - url: assets/images/illustrations/Client_Carrier_with_COM-HPC_module_for_PICMG_r7.png
+    alt: A COM-HPC module
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false

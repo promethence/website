@@ -14,31 +14,28 @@ bodyClass: "page-home"
         {% endif %}
       </div>
       {% if page.intro_images %}
-
+      <!-- Carousel side -->
       <div class="col-12 col-md-7 col-lg-6 order-1 order-md-2">
-        <img src="{{ page.intro_images[0] | relative_url }}" class="d-block w-100 rounded" alt="Intro Image" style="object-fit: cover; max-height: 400px; width: 100%;">
-      </div>
+          <div id="introCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+              <div class="carousel-inner">
+                  {% for image in page.intro_images %}
+                  <div class="carousel-item{% if forloop.first %} active{% endif %}">
+                      <img src="{{ image.url | relative_url }}" class="d-block w-100 rounded" alt="{{ image.alt }}" style="object-fit: cover; max-height: 400px; width: 100%;">
+                  </div>
 
-      <!-- Carousel side
-      <div class="col-12 col-md-7 col-lg-6 order-1 order-md-2">
-        <div id="introCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-          <div class="carousel-inner">
-            {% for image in page.intro_images %}
-            <div class="carousel-item{% if forloop.first %} active{% endif %}">
-              <img src="{{ image | relative_url }}" class="d-block w-100 rounded" alt="Slide {{ forloop.index }}" style="object-fit: cover; max-height: 400px; width: 100%;">
-            </div>
-            {% endfor %}
+                  {% break %}
+                  {% endfor %}
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </div> -->
+      </div>
       {% endif %}
     </div>
   </div>
