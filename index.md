@@ -19,13 +19,13 @@ show_call_box: false
 
 ## About Promethence
 
-Founded in Milano in 2025 by a team of professors, postdocs, and Ph.D. researchers from Politecnico di Milano, it brings together expertise in quantum computing, cryptography, and compilation.
+Founded in Milano in 2025 by a team of professors, postdocs, and Ph.D. researchers from Politecnico di Milano, it brings together expertise in quantum computing, (post-quantum) cryptography, and compilation.
 
 ## Mission
 
 To bridge the gap between cutting-edge research in quantum and secure computing and real-world applications.
 
----
+<!-- --- -->
 
-## What We Do
+<!-- ## What We Do -->
 
