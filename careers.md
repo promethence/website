@@ -38,7 +38,7 @@ Send us a brief message including:
 - Any relevant coursework or projects  
 - Why you are interested in Promethence  
 
-📬 Email us directly at `promethence@promethence.com`.
+📬 Email us at <a href="mailto:promethence@promethence.com">`promethence@promethence.com`</a>.
 
 ---
 
