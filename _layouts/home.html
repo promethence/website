@@ -20,10 +20,20 @@ bodyClass: "page-home"
               <div class="carousel-inner">
                   {% for image in page.intro_images %}
                   <div class="carousel-item{% if forloop.first %} active{% endif %}">
-                      <img src="{{ image.url | relative_url }}" class="d-block w-100 rounded" alt="{{ image.alt }}" style="object-fit: cover; max-height: 400px; width: 100%;">
+                      {% if image.src %}
+                      <a href="{{ image.src }}" target="_blank" rel="noopener">
+                          <img src="{{ image.url | relative_url }}"
+                               class="d-block w-100 rounded"
+                               alt="{{ image.alt }}"
+                               style="object-fit: cover; max-height: 400px; width: 100%;">
+                      </a>
+                      {% else %}
+                      <img src="{{ image.url | relative_url }}"
+                           class="d-block w-100 rounded"
+                           alt="{{ image.alt }}"
+                           style="object-fit: cover; max-height: 400px; width: 100%;">
+                      {% endif %}
                   </div>
-
-                  {% break %}
                   {% endfor %}
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
