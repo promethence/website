@@ -6,20 +6,20 @@ bodyClass: page-careers
 ---
 
 # Join Promethence
+We are a research-oriented startup based in Milano, Italy, working at the intersection of of **quantum computing**, **cryptography**, and **compilation**.
 
-We are a research-oriented startup based in Milan, Italy, working at the intersection of **quantum computing**, **cryptography**, and **compilation**.
-
-While we are not currently hiring for full-time roles, we are **open to internships and research collaborations** with motivated individuals who share our values: **openness**, **rigor**, **privacy**, and **ethics**.
+While we are not currently hiring for full-time positions, we welcome opportunities for internships, thesis projects, and research collaborations. All roles can be carried out fully remotely.
 
 ## Internship Opportunities
 
 Are you a student or early-career researcher interested in:
 
 - Quantum cryptanalysis of post-quantum schemes?
-- Low-level compilation for near-term quantum devices?
+- Quantum fault-tolerant compilation?
 - Algorithmic design under physical and security constraints?
 
 If you're curious, self-driven, and eager to work closely with a team of academics from **Politecnico di Milano**, we’d love to hear from you.
+We care more about **research interest** and **curiosity** than your current title or affiliation.
 
 ### What We Offer
 
@@ -28,19 +28,17 @@ If you're curious, self-driven, and eager to work closely with a team of academi
 - Opportunities to co-author papers or contribute to open-source prototypes  
 - Exposure to European research initiatives and innovation networks  
 
-> We care more about **research interest** and **curiosity** than your current title or affiliation.
-
 ---
 
 ## How to Apply
 
 Send us a brief message including:
 
-- Your background and academic interests  
+- Your CV and academic interests  
 - Any relevant coursework or projects  
-- Why you're interested in Promethence  
+- Why you are interested in Promethence  
 
-📬 [Reach out here](/contact) or email us directly at `promethence@promethence.com`.
+📬 Email us directly at `promethence@promethence.com`.
 
 ---
 

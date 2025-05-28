@@ -1,47 +1,29 @@
 [
   {
-    "title": "Quantum Cryptanalysis",
-    "description": "We study and break post-quantum cryptographic primitives using quantum algorithms and adversarial models.",
+    "title": "Secure Computing",
+    "description":  "We contribute to secure-by-design post-quantum systems, focusing on both theoretical foundations and practical deployability. We design cryptographic implementations and cryptanalysis techniques for post-quantum primitives.",
     "image": {
-      "url": "assets/images/features/quantum-lock.svg",
-      "width": 80,
-      "height": 80
+      "url": "assets/images/features/security.svg",
+      "width": 100,
+      "height": 100
     }
   },
   {
-    "title": "Quantum Compilation",
-    "description": "We design low-level compilation pipelines for near-term quantum architectures and hybrid algorithms.",
+    "title": "Quantum Stack",
+    "description": "We develop full-stack quantum computing solutions, designing novel quantum algorithms and fault-tolerant software pipelines. Our focus extends to integrating quantum computation with high-performance computing (HPC) platforms.",
     "image": {
-      "url": "assets/images/features/compiler-chip.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Algorithm Design",
-    "description": "We develop novel quantum algorithms and improve the performance of known routines under realistic constraints.",
-    "image": {
-      "url": "assets/images/features/algorithm-circuit.svg",
-      "width": 80,
-      "height": 80
+      "url": "assets/images/features/quantum.svg",
+      "width": 100,
+      "height": 100
     }
   },
   {
     "title": "Research Collaboration",
-    "description": "We partner with universities and industry to write proposals, publish papers, and build new technologies.",
+    "description": "We partner with universities and industry to write proposals, publish papers, and build new technologies. Our technical depth and academic pedigree set us apart in the rapidly evolving fields of quantum computing and post-quantum cryptography.",
     "image": {
-      "url": "assets/images/features/research-handshake.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Secure Computing",
-    "description": "We contribute to secure-by-design post-quantum systems with attention to both theory and practical deployability.",
-    "image": {
-      "url": "assets/images/features/secure-network.svg",
-      "width": 80,
-      "height": 80
+      "url": "assets/images/features/collaboration.svg",
+      "width": 100,
+      "height": 100
     }
   }
 ]

@@ -12,8 +12,20 @@ show_call_box: false
 
 # Quantum Thinking for a Post-Quantum World
 
-**Promethence** is a research startup advancing the frontiers of **quantum
-computing**, **cryptography**, and **compilation**. We help institutions
-navigate the quantum era through rigorous academic insight and real-world
-collaboration.
+**Promethence** is a research startup advancing the frontiers of 
+**quantum computing** and **post-quantum security**.
+
+---
+
+## About Promethence
+
+Founded in Milano in 2025 by a team of professors, postdocs, and Ph.D. researchers from Politecnico di Milano, it brings together expertise in quantum computing, cryptography, and compilation.
+
+## Mission
+
+To bridge the gap between cutting-edge research in quantum and secure computing and real-world applications.
+
+---
+
+## What We Do
 
