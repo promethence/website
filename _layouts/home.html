@@ -7,7 +7,7 @@ bodyClass: "page-home"
   <div class="container">
     <div class="row align-items-center justify-content-start">
       <!-- Text content -->
-      <div class="col-1 col-md-1 col-lg-6 order-2 order-md-1">
+      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
@@ -58,7 +58,7 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
 
       {% for feature in site.data.features%}
-      <div class="col-1 col-md-3 col-lg-4 mb-5">
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
           {% if feature.image %}
           <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
