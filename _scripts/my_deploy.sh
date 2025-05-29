@@ -43,6 +43,6 @@ if [ -z "$PASS" ]; then
 fi
 echo "FTP connection..."
 
-lftp -v -c "set ssl:verify-certificate no; open -u perriello,'$PASS' -p 21 $HOST; mirror -Rnev ./_site/ ./www.promethence.net/ --ignore-time --parallel=8 --exclude-glob '.git*' --exclude '.git/' --no-perms"
+lftp -v -c "set ssl:verify-certificate no; open -u $USER,'$PASS' -p 21 $HOST; mirror -Rnev ./_site/ ./www.promethence.net/ --ignore-time --parallel=8 --exclude-glob '.git*' --exclude '.git/' --no-perms"
 
 echo "Deployed successfully!"
