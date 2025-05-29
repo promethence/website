@@ -7,7 +7,7 @@ bodyClass: "page-home"
   <div class="container">
     <div class="row align-items-center justify-content-start">
       <!-- Text content -->
-      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-1">
+      <div class="col-1 col-md-1 col-lg-6 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
           {% include call.html show_button=true %}
@@ -16,27 +16,69 @@ bodyClass: "page-home"
       {% if page.intro_images %}
       <!-- Carousel side -->
       <div class="col-12 col-md-7 col-lg-6 order-1 order-md-2">
-        <div id="introCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-          <div class="carousel-inner">
-            {% for image in page.intro_images %}
-            <div class="carousel-item{% if forloop.first %} active{% endif %}">
-              <img src="{{ image | relative_url }}" class="d-block w-100 rounded" alt="Slide {{ forloop.index }}" style="object-fit: cover; max-height: 400px; width: 100%;">
-            </div>
-            {% endfor %}
+          <div id="introCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+              <div class="carousel-inner">
+                  {% for image in page.intro_images %}
+                  <div class="carousel-item{% if forloop.first %} active{% endif %}">
+                      {% if image.src %}
+                      <a href="{{ image.src }}" target="_blank" rel="noopener">
+                          <img src="{{ image.url | relative_url }}"
+                               class="d-block w-100 rounded"
+                               alt="{{ image.alt }}"
+                               style="object-fit: cover; max-height: 400px; width: 100%;">
+                      </a>
+                      {% else %}
+                      <img src="{{ image.url | relative_url }}"
+                           class="d-block w-100 rounded"
+                           alt="{{ image.alt }}"
+                           style="object-fit: cover; max-height: 400px; width: 100%;">
+                      {% endif %}
+                  </div>
+                  {% endfor %}
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon bg-dark rounded-circle" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
       </div>
       {% endif %}
     </div>
   </div>
+</div>
+
+<!-- Feature block -->
+{% if site.data.features %}
+<div class="strip strip-grey">
+  <div class="container pt-1 pb-1 pt-md-1 pb-md-1">
+    <div class="row justify-content-center">
+
+      {% for feature in site.data.features%}
+      <div class="col-1 col-md-3 col-lg-4 mb-5">
+        <div class="feature">
+          {% if feature.image %}
+          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ feature.title }}</h2>
+          <div class="feature-content">{{ feature.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Add your "Get in touch" text here, **after features** -->
+<div class="container pt-1 pb-4">
+  <p>
+    <a href="mailto:promethence@promethence.com">Get in touch with us</a> or visit the <a href="/team">Team</a> page to learn more about who we are.
+  </p>
 </div>
 
 <!-- <div class="strip">
@@ -56,32 +98,12 @@ bodyClass: "page-home"
      </div>
      {% endfor %}
      </div>
-     <!-- <div class="row justify-content-center">
+     <div class="row justify-content-center">
      <div class="col-auto">
      <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
      </div>
      </div> -->
 </div>
-</div> -->
-
-{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
-        </div>
-      </div>
-      {% endfor %}
-
-    </div>
-  </div>
 </div>
-{% endif %}
+
+

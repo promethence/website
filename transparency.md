@@ -75,3 +75,8 @@ bodyClass: page-about
     <h2>12. Proprietà intellettuali</h2>
     <p>Non sono attualmente presenti brevetti o altri diritti di proprietà intellettuale.</p>
   </section>
+
+  <section>
+    <h2>13. PEC</h2>
+    <p> prometence@pec.it</p>
+  </section>

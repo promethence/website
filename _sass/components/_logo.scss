@@ -5,6 +5,8 @@
   }
   img {
     max-width: unset;
+    width: 300px; // ← increase width as desired
+    height: auto; // ← ensure aspect ratio is preserved
   }
   a {
     display: block;
