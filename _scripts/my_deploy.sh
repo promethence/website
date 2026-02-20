@@ -35,8 +35,11 @@ fi
 HOST='ftp.promethence.net'
 
 # Retrieve the password from GNOME Keyring
-USER=$(secret-tool lookup "ftp" "promethence" "stored" "username" | sed "s/'/\\\'/g")
-PASS=$(secret-tool lookup "ftp" "promethence" "stored" "password" | sed "s/'/\\\'/g")
+# USER=$(secret-tool lookup "ftp" "promethence" "stored" "username" | sed "s/'/\\\'/g")
+# PASS=$(secret-tool lookup "ftp" "promethence" "stored" "password" | sed "s/'/\\\'/g")
+# corresponding to secret-tool store --label="Aruba FTP password" "ftp" "promethence" "username" "18187160@aruba.it"
+USER=18187160@aruba.it
+PASS=$(secret-tool lookup "ftp" "promethence" "username" "$USER" | sed "s/'/\\\'/g")
 if [ -z "$PASS" ]; then
   echo "Password not found in secret-tool. Make sure it's stored correctly."
   exit 1

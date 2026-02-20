@@ -15,9 +15,12 @@ set -o nounset                              # Treat unset variables as an error
 
 HOST='ftp.promethence.net'
 # From Gnome Keyring
-USER=$(secret-tool lookup "ftp" "promethence" "stored" "username" | sed "s/'/\\\'/g")
-PASS=$(secret-tool lookup "ftp" "promethence" "stored" "password" | sed "s/'/\\\'/g")
+# USER=$(secret-tool lookup "ftp" "promethence" "stored" "username" | sed "s/'/\\\'/g")
+# PASS=$(secret-tool lookup "ftp" "promethence" "stored" "password" | sed "s/'/\\\'/g")
+
+USER=18187160@aruba.it
+PASS=$(secret-tool lookup "ftp" "promethence" "username" "$USER" | sed "s/'/\\\'/g")
 
 # Log into the FTP server
 lftp -u "$USER","$PASS" "$HOST"
-#lftp -v -c "set ssl:verify-certificate no; open -u '$USER','$PASS' -p 2121 $HOST; mirror -Rnev ./_site/ ./ --ignore-time --parallel=8 --exclude-glob '.git*' --exclude '.git/' --no-perms"
+# lftp -v -c "set ssl:verify-certificate no; open -u '$USER','$PASS' -p 2121 $HOST; mirror -Rnev ./_site/ ./ --ignore-time --parallel=8 --exclude-glob '.git*' --exclude '.git/' --no-perms"
