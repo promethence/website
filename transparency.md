@@ -78,5 +78,5 @@ bodyClass: page-about
 
   <section>
     <h2>13. PEC</h2>
-    <p> prometence@pec.it</p>
+    <p> promethence@pec.it</p>
   </section>
